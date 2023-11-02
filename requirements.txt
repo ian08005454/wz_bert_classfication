@@ -1,0 +1,10 @@
+transformers
+hanlp
+opencc
+sentence-transformers
+ckip-transformers
+pandas
+pandarallel
+datasets
+deepspeed
+accelerate

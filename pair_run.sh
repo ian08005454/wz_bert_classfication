@@ -1,0 +1,11 @@
+python3  wz_bert.py --data_path ./data/resample_finetune_clause4_512_772.jsonl\
+    --eval_path ./data/resample_finetune_validation.jsonl\
+    --training_key content1/content2\
+    --batch_size 10\
+    --epoch 6\
+    --max_length 512\
+    --base_model "sentence-transformers/distiluse-base-multilingual-cased-v1"\
+    --num_class 2\
+    --save_steps 2000\
+    --eval_steps 2000\
+    --mode train
